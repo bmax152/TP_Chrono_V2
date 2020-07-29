@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP chrono</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bodyDark" id="container">
+    <section class="dark" id="enTete">
+        <input type="button" name="modes" id="modes" value="◐" onClick="white()" />
+        <h1>CHRONOMÈTRE</h1>
+        <span id="chronotime">0:00:00:000</span>
+    </section>
+
+    <section id="boutons" class="dark">
+        <form name="chronoForm">
+            <input type="button" class="myButton" name="startstop" value="Démarrer" onClick="chronoStart()" />
+            <input type="button" class="myButton" name="reset" value="Reset" onClick="chronoReset()" />
+            <input type="button" class="myButton" name="memo" value="Mémoriser" onClick="memoTours()" />
+            <input type="button" class="myButton" name="rappel" value="Rappel" onClick="rappelDernierTour()" />
+            <input type="button" class="myButton" name="effacer" value="Effacer le dernier tour" onClick="efface()" />
+        </form>
+    </section>
+
+    <section id="tours" class="dark">
+        <h2>Tours:</h2>
+        <table id="tourMemo">
+
+        </table>
+    </section>
+    
+    <script src="tp_chrono.js"></script>
+</body>
+
+</html>

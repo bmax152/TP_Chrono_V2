@@ -1,0 +1,127 @@
+ /* BOUTTONS */
+ #modes {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    background-color: #c62d1f;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 1px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+    margin-left: 540px;
+    margin-top: 5px;
+}
+
+#modes:hover {
+    background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+    background-color: #f24437;
+}
+
+#modes:active {
+    position: relative;
+    top: 1px;
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin-top: 10px;
+    ;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+    background-color: #e9e9e9;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.bouttonTour {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    background-color: #ededed;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin-left: 61px;
+    margin-bottom: 5px;
+}
+
+.bouttonTour:hover {
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #dfdfdf;
+}
+
+.bouttonTour:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/* MODES D'AFFICHAGE */
+.bodyDark {
+    border: white solid 1px;
+    width: 600px;
+    margin: 100px auto auto auto;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bodyWhite {
+    border: black solid 1px;
+    width: 600px;
+    margin: 100px auto auto auto;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dark {
+
+    text-align: center;
+    color: white;
+}
+
+.white {
+
+    text-align: center;
+    color: black;
+}
+
+/* TEXTES */
+h1 {
+
+    font-family: fantasy, 'sans-serif' !important;
+    font-size: 40px;
+}
+
+#chronotime {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
